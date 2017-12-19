@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="calculator-body">
+      <div class="calculator-display-frame">
+        <div class="display-frame-panel">
+          <div class="level">
+            <span>LEVEL: </span>
+            <span id="level-number">1</span>
+          </div>
+          <div class="solar-battery">
+            <span class="solar-battery__segment"></span>
+            <span class="solar-battery__segment"></span>
+            <span class="solar-battery__segment"></span>
+            <span class="solar-battery__segment"></span>
+          </div>
+        </div>
+        <div class="display">
+          <div class="display-bar">
+            <div class="calculator-face--regular-sad"></div>
+            <div class="moves">
+              <span>MOVES: </span>
+              <span class="moves-number">0</span>
+            </div>
+            <div class="goal">
+              <span>GOAL: </span>
+              <span class="goal-value">6</span>
+            </div>
+          </div>
+          <div class="operation-panel">
+            <span class="current-value--error-success">0000</span>
+            <span class="numbers-underneath">888888</span>
+          </div>
+        </div>
+       </div>
+
+        <div class="control-panel">
+          <div class="button-place">
+            <div class="button" id="hints--buy">
+              <span class="button__text">BUY HINTS</span>
+            </div>
+            <div class="button-socket"></div>
+          </div>
+          <div class="button-place">
+            <div class="button mathOperation button-one">
+              <span class="button__text">+6</span>
+            </div>
+            <div class="button-socket"></div>
+          </div>
+          <div class="button-place">
+            <div class="button" id="clear">
+              <span class="button__text">CLR</span>
+            </div>
+            <div class="button-socket"></div>
+          </div>
+          <div class="button-place">
+            <div class="button" id="daily-hint">
+              <span class="button__text">DAILY HINT</span>
+            </div>
+            <div class="button-socket"></div>
+          </div>
+          <div class="button-place">
+            <div class="button mathOperation button-two">
+              <span class="button__text">-3</span>
+            </div>
+            <div class="button-socket"></div>
+          </div>
+          <div class="button-place">
+            <div class="button button-three" id="reverse">
+              <span class="button__text">Reverse</span>
+            </div>
+            <div class="button-socket"></div>
+          </div>
+          <div class="button-place">
+            <div class="button" id="settings">
+              <span class="button__text">SETTINGS</span>
+            </div>
+            <div class="button-socket"></div>
+          </div>
+          <div class="button-place">
+            <div class="button mathOperation button-four">
+              <span class="button__text">/2</span>
+            </div>
+            <div class="button-socket"></div>
+          </div>
+          <div class="button-place">
+            <div class="button button-five" id="delete-last-digit">
+              <span class="button__text"><<</span>
+            </div>
+            <div class="button-socket"></div>
+          </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+  </body>
+  </html>
