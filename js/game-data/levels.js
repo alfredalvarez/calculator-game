@@ -19,8 +19,8 @@ var levels = {
   },
   3: {
     isCurrent: true,
-    stepsAvailable: 2,
-    operationsAvailable: [mathOperations['+'](2), mathOperations['-'](3), mathOperations['/'](2), otherOperations['reverse']],
+    stepsAvailable: 3,
+    operationsAvailable:  [mathOperations['+'](2), mathOperations['-'](3), mathOperations['/'](2), otherOperations['reverse']],
     initValue: 0,
     goal: 6,
     operValIsArray: false,
